@@ -57,7 +57,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 2900,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://avijenaenterprises.com/wp-content/uploads/2024/07/mdf-stone-grey.jpeg',
     description: 'Modern stone grey MDF board perfect for contemporary designs.',
     specifications: ['18mm thickness', '4x8 feet', 'Stone grey finish', 'Contemporary look'],
     inStock: true,
