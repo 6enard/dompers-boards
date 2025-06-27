@@ -8,7 +8,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Ceiling Boards',
     price: 1500,
-    image: 'https://images.pexels.com/photos/6782469/pexels-photo-6782469.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://hardwareworld.ug/wp-content/uploads/ceiling-board.jpg',
     description: 'High-quality 9mm ceiling board perfect for interior ceiling applications.',
     specifications: ['9mm thickness', '4x8 feet', 'Smooth finish', 'Easy installation'],
     inStock: true,
