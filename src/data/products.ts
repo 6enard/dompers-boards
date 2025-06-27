@@ -68,7 +68,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 3000,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/499699255_122126704124796671_7139942094628288970_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LLZsytRqTSkQ7kNvwGwHIIP&_nc_oc=AdnJvzOq9zOr-lchNn658OB6pCri7Nnyf0efxoUWhmbGRfq-ugbGFBf0DKlnheryp5w&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=dYpC6k6_QsMw63Yjv6odZQ&oh=00_AfPx_FCFsgRJ5C_Dpr4ReXefbcpTjkCrTu3_T8LmqLCf7g&oe=686439D5',
     description: 'Warm honey bee colored MDF board for cozy interior applications.',
     specifications: ['18mm thickness', '4x8 feet', 'Honey bee finish', 'Warm tone'],
     inStock: true,
