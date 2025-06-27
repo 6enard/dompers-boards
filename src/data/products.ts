@@ -149,7 +149,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Block-boards',
     price: 3800,
-    image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://image.made-in-china.com/2f0j00yEcbvMkaChgq/1220-2440-18mm-White-Glossy-Melamine-Laminated-Blockboard-Block-Board.webp',
     description: 'Durable laminated block board perfect for furniture construction.',
     specifications: ['19mm thickness', '4x8 feet', 'Laminated surface', 'High durability'],
     inStock: true,
