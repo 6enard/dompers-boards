@@ -160,7 +160,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Block-boards',
     price: 4500,
-    image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://www.gypsumceilingkenya.co.ke/wp-content/uploads/2024/11/Blockboards.jpeg',
     description: 'Extra thick 1 inch block board for heavy-duty construction projects.',
     specifications: ['25mm thickness', '4x8 feet', 'Extra thick', 'Heavy-duty construction'],
     inStock: true,
