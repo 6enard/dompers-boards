@@ -239,7 +239,7 @@ export const products: Product[] = [
     category: 'doors',
     subCategory: 'Panel',
     price: 6500,
-    image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://www.randtech.co.ke/wp-content/uploads/2021/04/Hardwood-doors.jpg',
     description: 'Traditional panel door with raised panels and classic styling.',
     specifications: ['6 panel design', 'Solid construction', 'Traditional style', 'Paint ready'],
     inStock: true,
