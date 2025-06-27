@@ -25,8 +25,12 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onCartToggle }
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-wood-700 to-wood-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl font-montserrat">D</span>
+            <div className="w-12 h-12 rounded-lg overflow-hidden flex items-center justify-center">
+              <img 
+                src="https://yt3.googleusercontent.com/lOZ2T66sWR4FIjYLMPDDX0evru1Eb8zCWhk3x9r4C4q9lKn5IbS8PvSJaJig2_FvFVfTKPs8=s900-c-k-c0x00ffffff-no-rj"
+                alt="Dompers Boards Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900 font-montserrat">Dompers Boards</h1>

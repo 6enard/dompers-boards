@@ -17,8 +17,12 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-wood-700 to-wood-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg font-montserrat">D</span>
+              <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-white">
+                <img 
+                  src="https://yt3.googleusercontent.com/lOZ2T66sWR4FIjYLMPDDX0evru1Eb8zCWhk3x9r4C4q9lKn5IbS8PvSJaJig2_FvFVfTKPs8=s900-c-k-c0x00ffffff-no-rj"
+                  alt="Dompers Boards Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h3 className="text-xl font-bold font-montserrat">Dompers Boards</h3>
