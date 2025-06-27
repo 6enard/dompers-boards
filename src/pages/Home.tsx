@@ -24,7 +24,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onProductSelect }) => {
     {
       name: 'Boards',
       description: 'MDF, Chipboards, Plywood, Marine Boards, Ceiling Boards, Block Boards, Hard Boards & Bluegum',
-      image: 'https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://paintshardware.co.ke/wp-content/uploads/2020/08/pre-laminated-mdf-boards-500x500-1.jpg',
       count: products.filter(p => p.category === 'boards').length
     },
     {
