@@ -226,7 +226,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Bluegum',
     price: 2200,
-    image: 'https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCnMo_5vCub2_pumCP8nL7MPf0SZq6W0Kzig&s',
     description: 'Natural bluegum timber for construction and furniture making.',
     specifications: ['Various sizes', 'Natural timber', 'Construction grade', 'Sustainable source'],
     inStock: true,
