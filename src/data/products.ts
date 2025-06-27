@@ -173,7 +173,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Chipboards',
     price: 1800,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/499870822_122126707502796671_3522066126862163865_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=91fY7QVyvPMQ7kNvwHvsTzp&_nc_oc=AdnIA0cxecV7Mgs5gQYfflcBSFSfjGR8yQiP-RIIG4ngPZmOD4xt42GnMbyfAIz_XX0&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=KzP76PNfUI-25AQ0YDDhrg&oh=00_AfNn8c7RFXnpx0dy4CV1acYrrhkfm2Dy_ghHXXbcutbntQ&oe=686440DC',
     description: 'Economical chipboard perfect for general construction and furniture backing.',
     specifications: ['16mm thickness', '4x8 feet', 'Standard grade', 'Cost-effective'],
     inStock: true,
