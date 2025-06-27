@@ -112,7 +112,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 3500,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/499916388_122126704514796671_619849296009068323_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0Hnd5z32D9QQ7kNvwF3SgJS&_nc_oc=AdnhMyzFXjU3MEfhQY5GBTD7OhoCefNjNN5wkbyvxwIa4NuBdd2MTq55FRcqBptj4FM&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=k7oi85K8grQFMx6qNi5qtQ&oh=00_AfOq36MISNvKWpDLPUd-W5MGEgvXbTD2Zzkdp449g3nuHQ&oe=68642555',
     description: 'Premium American walnut MDF board with authentic wood grain.',
     specifications: ['18mm thickness', '4x8 feet', 'American walnut finish', 'Authentic grain'],
     inStock: true,
