@@ -137,7 +137,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Block-boards',
     price: 4200,
-    image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://s.alicdn.com/@sc04/kf/He228c36ce0d540c1b4ef51a921aa3640N.jpg_300x300.jpg',
     description: 'Premium mahogany block board with solid wood core for heavy-duty applications.',
     specifications: ['19mm thickness', '4x8 feet', 'Mahogany finish', 'Solid wood core'],
     inStock: true,
