@@ -79,7 +79,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 3100,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/499603630_122126704478796671_5383315794723521852_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XJUoozUKbT0Q7kNvwHRU6vu&_nc_oc=Adl8t4j-VVd36oqBm20_OlaEvFzj_WDo12xfNnNvqRkUe57My3inmTPhkvdS2fvsDqo&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=FF3io49leaLTxWb9m_8prg&oh=00_AfPttMjS9XWQnrc1zx2Uvu3o2t_t4Yykccu6NC6zg68yjg&oe=686448DE',
     description: 'Premium Coimbra MDF board with sophisticated finish.',
     specifications: ['18mm thickness', '4x8 feet', 'Coimbra finish', 'Premium quality'],
     inStock: true,
