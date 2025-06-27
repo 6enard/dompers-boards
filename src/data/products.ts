@@ -213,7 +213,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Hard Boards',
     price: 1200,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://kelvintimber.co.uk/wp-content/uploads/2021/11/hardboard.jpg',
     description: 'Dense hard board perfect for backing and underlayment applications.',
     specifications: ['3mm thickness', '4x8 feet', 'High density', 'Smooth surface'],
     inStock: true,
