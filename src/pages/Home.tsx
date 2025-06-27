@@ -164,15 +164,26 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onProductSelect }) => {
             <div className="p-4 sm:p-6 bg-gradient-to-r from-primary-500 to-primary-600 text-white">
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-lg sm:text-xl font-bold font-montserrat">📍 Address</div>
+                  <div className="text-lg sm:text-xl font-bold font-montserrat flex items-center justify-center">
+                    <MapPin className="h-5 w-5 mr-2" />
+                    Address
+                  </div>
                   <div className="text-sm sm:text-base font-roboto opacity-90">Freehold, next to Abbey Resort</div>
                 </div>
                 <div>
-                  <div className="text-lg sm:text-xl font-bold font-montserrat">📞 Phone</div>
+                  <div className="text-lg sm:text-xl font-bold font-montserrat flex items-center justify-center">
+                    <div className="w-5 h-5 bg-white rounded-full mr-2 flex items-center justify-center">
+                      <div className="w-2 h-2 bg-primary-600 rounded-full"></div>
+                    </div>
+                    Phone
+                  </div>
                   <div className="text-sm sm:text-base font-roboto opacity-90">0794817881</div>
                 </div>
                 <div>
-                  <div className="text-lg sm:text-xl font-bold font-montserrat">🕒 Hours</div>
+                  <div className="text-lg sm:text-xl font-bold font-montserrat flex items-center justify-center">
+                    <Clock className="h-5 w-5 mr-2" />
+                    Hours
+                  </div>
                   <div className="text-sm sm:text-base font-roboto opacity-90">Mon-Sat: 8AM-6PM</div>
                 </div>
               </div>
@@ -195,26 +206,28 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onProductSelect }) => {
               {
                 title: 'Premium Quality',
                 description: 'Our products are carefully selected to ensure durability and reliability.',
-                icon: '🏆'
+                icon: Award
               },
               {
                 title: 'Affordable Prices',
                 description: 'Get the best value without compromising on quality.',
-                icon: '💰'
+                icon: () => <div className="w-6 h-6 bg-current rounded-full flex items-center justify-center"><div className="text-xs font-bold">$</div></div>
               },
               {
                 title: 'Wide Availability',
                 description: 'Find us in Nakuru, Nyahururu, Narok, Kisii & Bomet for convenient access.',
-                icon: '📍'
+                icon: MapPin
               },
               {
                 title: 'Excellent Service',
                 description: 'We are dedicated to helping you find the right materials for your needs.',
-                icon: '🤝'
+                icon: Users
               }
             ].map((feature, index) => (
               <div key={index} className="text-center bg-white p-4 sm:p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
-                <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">{feature.icon}</div>
+                <div className="inline-flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-primary-100 rounded-lg mb-3 sm:mb-4">
+                  <feature.icon className="h-6 w-6 sm:h-8 sm:w-8 text-primary-600" />
+                </div>
                 <h3 className="text-base sm:text-lg font-semibold text-gray-900 font-montserrat mb-2">
                   {feature.title}
                 </h3>

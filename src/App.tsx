@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Cart from './components/Cart';
 import ProductDetail from './components/ProductDetail';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import { Product } from './types';
@@ -112,7 +113,7 @@ const AppContent: React.FC = () => {
                   <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
                     <div className="flex items-center mb-6">
                       <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                        <span className="text-2xl">🏗️</span>
+                        <div className="w-6 h-6 bg-primary-600 rounded"></div>
                       </div>
                       <h3 className="text-xl sm:text-2xl font-bold text-gray-900 font-montserrat">Boards</h3>
                     </div>
@@ -139,7 +140,7 @@ const AppContent: React.FC = () => {
                   <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
                     <div className="flex items-center mb-6">
                       <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                        <span className="text-2xl">🚪</span>
+                        <div className="w-6 h-8 bg-primary-600 rounded border-2 border-primary-300"></div>
                       </div>
                       <h3 className="text-xl sm:text-2xl font-bold text-gray-900 font-montserrat">Doors</h3>
                     </div>
@@ -170,33 +171,36 @@ const AppContent: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      icon: '🏆',
+                      icon: 'trophy',
                       title: 'Premium Quality',
                       description: 'Our products are carefully selected to ensure durability and reliability.',
                       color: 'from-blue-500 to-blue-600'
                     },
                     {
-                      icon: '💰',
+                      icon: 'dollar-sign',
                       title: 'Affordable Prices',
                       description: 'Get the best value without compromising on quality.',
                       color: 'from-green-500 to-green-600'
                     },
                     {
-                      icon: '📍',
+                      icon: 'map-pin',
                       title: 'Wide Availability',
                       description: 'Find us in Nakuru, Nyahururu, Narok, Kisii & Bomet for convenient access.',
                       color: 'from-purple-500 to-purple-600'
                     },
                     {
-                      icon: '🤝',
+                      icon: 'handshake',
                       title: 'Excellent Service',
                       description: 'We are dedicated to helping you find the right materials for your needs.',
                       color: 'from-orange-500 to-orange-600'
                     }
                   ].map((feature, index) => (
                     <div key={index} className="bg-white rounded-2xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
-                      <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r ${feature.color} rounded-full text-white text-2xl mb-4`}>
-                        {feature.icon}
+                      <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r ${feature.color} rounded-full text-white mb-4`}>
+                        {feature.icon === 'trophy' && <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center"><div className="w-4 h-4 bg-yellow-500 rounded-full"></div></div>}
+                        {feature.icon === 'dollar-sign' && <div className="text-2xl font-bold">$</div>}
+                        {feature.icon === 'map-pin' && <div className="w-2 h-6 bg-white rounded-full"></div>}
+                        {feature.icon === 'handshake' && <div className="w-6 h-4 bg-white rounded"></div>}
                       </div>
                       <h3 className="text-lg font-bold text-gray-900 font-montserrat mb-3">{feature.title}</h3>
                       <p className="text-gray-600 font-roboto text-sm leading-relaxed">{feature.description}</p>
@@ -209,7 +213,9 @@ const AppContent: React.FC = () => {
               <div className="bg-gradient-to-r from-green-50 to-primary-50 rounded-2xl p-6 sm:p-8 lg:p-12">
                 <div className="text-center">
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
-                    <span className="text-2xl">🌱</span>
+                    <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                      <div className="w-4 h-4 bg-green-300 rounded-full"></div>
+                    </div>
                   </div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 font-montserrat mb-4">
                     Sustainable & Responsible
@@ -244,7 +250,9 @@ const AppContent: React.FC = () => {
                       {/* Business Hours */}
                       <div className="bg-primary-50 p-6 rounded-xl">
                         <h3 className="text-xl font-bold text-primary-900 font-montserrat mb-4 flex items-center">
-                          <span className="mr-3">🕒</span>
+                          <div className="w-6 h-6 border-2 border-primary-600 rounded-full mr-3 flex items-center justify-center">
+                            <div className="w-2 h-2 bg-primary-600 rounded-full"></div>
+                          </div>
                           Business Hours
                         </h3>
                         <p className="text-primary-800 font-roboto text-lg">Monday - Saturday: 8:00 AM - 6:00 PM</p>
@@ -253,7 +261,9 @@ const AppContent: React.FC = () => {
                       {/* Locations */}
                       <div className="space-y-6">
                         <h3 className="text-xl font-bold text-gray-900 font-montserrat flex items-center">
-                          <span className="mr-3">📍</span>
+                          <div className="w-6 h-6 bg-primary-600 rounded-full mr-3 flex items-center justify-center">
+                            <div className="w-2 h-4 bg-white rounded-full"></div>
+                          </div>
                           Our Locations
                         </h3>
                         
@@ -274,7 +284,9 @@ const AppContent: React.FC = () => {
                               </div>
                               <p className="text-gray-600 font-roboto mb-3 text-sm">{location.address}</p>
                               <div className="flex items-center space-x-2">
-                                <span className="text-lg">📞</span>
+                                <div className="w-4 h-4 bg-primary-600 rounded-full flex items-center justify-center">
+                                  <div className="w-2 h-2 bg-white rounded-full"></div>
+                                </div>
                                 <a href={`tel:${location.phone}`} className="font-semibold text-primary-600 font-roboto hover:text-primary-700 transition-colors">
                                   {location.phone}
                                 </a>
@@ -290,7 +302,9 @@ const AppContent: React.FC = () => {
                         <div className="space-y-4">
                           <div className="flex items-center space-x-4">
                             <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                              <span className="text-xl">💬</span>
+                              <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center">
+                                <div className="w-3 h-3 bg-white rounded-full"></div>
+                              </div>
                             </div>
                             <div>
                               <p className="font-semibold text-gray-900 font-roboto">WhatsApp</p>
@@ -302,7 +316,7 @@ const AppContent: React.FC = () => {
                           
                           <div className="flex items-center space-x-4">
                             <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                              <span className="text-xl">✉️</span>
+                              <div className="w-6 h-4 bg-blue-600 rounded"></div>
                             </div>
                             <div>
                               <p className="font-semibold text-gray-900 font-roboto">Email</p>
@@ -319,7 +333,7 @@ const AppContent: React.FC = () => {
                     <div className="space-y-6">
                       <div>
                         <h3 className="text-xl font-bold text-gray-900 font-montserrat mb-4 flex items-center">
-                          <span className="mr-3">🗺️</span>
+                          <div className="w-6 h-6 bg-primary-600 rounded mr-3"></div>
                           Find Us - Nakuru Main Branch
                         </h3>
                         <div className="rounded-xl overflow-hidden shadow-lg">
@@ -346,7 +360,7 @@ const AppContent: React.FC = () => {
                             rel="noopener noreferrer"
                             className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
                           >
-                            <span className="text-xl">📘</span>
+                            <div className="w-6 h-6 bg-white rounded"></div>
                           </a>
                           <a 
                             href="https://www.instagram.com/dompersboards/" 
@@ -354,7 +368,7 @@ const AppContent: React.FC = () => {
                             rel="noopener noreferrer"
                             className="w-12 h-12 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors"
                           >
-                            <span className="text-xl">📷</span>
+                            <div className="w-6 h-6 bg-white rounded-full border-2 border-pink-600"></div>
                           </a>
                           <a 
                             href="https://x.com/DompersBoards" 
@@ -362,7 +376,7 @@ const AppContent: React.FC = () => {
                             rel="noopener noreferrer"
                             className="w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors"
                           >
-                            <span className="text-xl">🐦</span>
+                            <div className="w-6 h-6 bg-white rounded"></div>
                           </a>
                         </div>
                       </div>
@@ -391,6 +405,7 @@ const AppContent: React.FC = () => {
       </main>
       
       <Footer />
+      <ScrollToTop />
       
       <Cart
         isOpen={isCartOpen}

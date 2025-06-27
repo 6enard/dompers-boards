@@ -19,12 +19,20 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onCartToggle }
     { name: 'Contact', href: 'contact' },
   ];
 
+  const handleLogoClick = () => {
+    onNavigate('home');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 sm:h-20">
           {/* Logo */}
-          <div className="flex items-center space-x-2 sm:space-x-3">
+          <button 
+            onClick={handleLogoClick}
+            className="flex items-center space-x-2 sm:space-x-3 hover:opacity-80 transition-opacity"
+          >
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg overflow-hidden flex items-center justify-center">
               <img 
                 src="https://yt3.googleusercontent.com/lOZ2T66sWR4FIjYLMPDDX0evru1Eb8zCWhk3x9r4C4q9lKn5IbS8PvSJaJig2_FvFVfTKPs8=s900-c-k-c0x00ffffff-no-rj"
@@ -36,7 +44,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onCartToggle }
               <h1 className="text-lg sm:text-2xl font-bold text-gray-900 font-montserrat">Dompers Boards</h1>
               <p className="text-xs text-gray-600 font-roboto">Premium Boards & Doors</p>
             </div>
-          </div>
+          </button>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6 lg:space-x-8">
