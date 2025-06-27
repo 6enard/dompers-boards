@@ -33,7 +33,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 2800,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://i0.wp.com/wajenzistores.com/wp-content/uploads/2023/11/MDF-laminated-board-RED-.jpeg?fit=640%2C450&ssl=1',
     description: 'Premium red MDF board with smooth finish for furniture and interior projects.',
     specifications: ['18mm thickness', '4x8 feet', 'Red finish', 'Smooth surface'],
     inStock: true,
