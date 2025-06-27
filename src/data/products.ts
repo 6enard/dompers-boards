@@ -251,7 +251,7 @@ export const products: Product[] = [
     category: 'doors',
     subCategory: 'Melamine',
     price: 8500,
-    image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://i.pinimg.com/736x/03/8c/cb/038ccb342bdac5655bfc88a0af252027.jpg',
     description: 'Contemporary melamine door with clean lines and durable finish.',
     specifications: ['Standard size', 'Modern design', 'Scratch resistant', 'Easy maintenance'],
     inStock: true,
