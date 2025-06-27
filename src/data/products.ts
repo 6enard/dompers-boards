@@ -101,7 +101,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 2700,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/499415267_122126703938796671_8465157301110867919_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2pqDb6hdrNIQ7kNvwE7xi1N&_nc_oc=AdnGAe0nwoQOayU5XTOHONHqK-CAh7FGvNZY3FgCvubQrgwVWpqMWFQ9lJ91MYZoN7g&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=G_sChcRgqF-n69RRd7UxNg&oh=00_AfO7aPUs1U34nwCzgWk5_g_eVD3xg77wfuCUxJsD7IxT-Q&oe=686441FC',
     description: 'Unique blue MDF board for creative and modern projects.',
     specifications: ['18mm thickness', '4x8 feet', 'Blue finish', 'Creative design'],
     inStock: true,
