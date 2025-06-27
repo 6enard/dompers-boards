@@ -96,7 +96,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           <div className="relative animate-slide-up order-first lg:order-last">
             <div className="aspect-w-16 aspect-h-12 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/7046976/pexels-photo-7046976.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://paintshardware.co.ke/wp-content/uploads/2020/08/pre-laminated-mdf-boards-500x500-1.jpg"
                 alt="Premium boards and construction materials"
                 className="w-full h-64 sm:h-80 lg:h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
