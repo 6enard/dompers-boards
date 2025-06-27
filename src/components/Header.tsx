@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onCartToggle }
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="hidden sm:block">
+            <div className=" sm:block">
               <h1 className="text-lg sm:text-2xl font-bold text-gray-900 font-montserrat">Dompers Boards</h1>
               <p className="text-xs text-gray-600 font-roboto">Premium Boards & Doors</p>
             </div>
