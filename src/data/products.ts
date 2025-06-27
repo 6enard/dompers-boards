@@ -45,7 +45,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 3200,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://static.wixstatic.com/media/6fc60e_b6f0e37a9dac4fd98ff30d2c1f6977f1~mv2.jpg/v1/fill/w_480,h_418,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6fc60e_b6f0e37a9dac4fd98ff30d2c1f6977f1~mv2.jpg',
     description: 'Elegant Sapeli MDF board with natural wood grain appearance.',
     specifications: ['18mm thickness', '4x8 feet', 'Sapeli finish', 'Wood grain texture'],
     inStock: true,
