@@ -199,7 +199,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Marine Boards',
     price: 4800,
-    image: 'https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Y_m2TQqfwWVP42ACGGqfenLmHVMXUZQrnA&s',
     description: 'Waterproof marine board ideal for outdoor and moisture-prone applications.',
     specifications: ['15mm thickness', '4x8 feet', 'Waterproof', 'Marine grade quality'],
     inStock: true,
