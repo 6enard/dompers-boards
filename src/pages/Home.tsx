@@ -30,7 +30,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onProductSelect }) => {
     {
       name: 'Doors',
       description: 'Melamine & Panel Doors, Custom Orders Available',
-      image: 'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQqBrB1Fcxgd21B-Mn3g_2iWiEs4DbDncnQ&s',
       count: products.filter(p => p.category === 'doors').length
     }
   ];
