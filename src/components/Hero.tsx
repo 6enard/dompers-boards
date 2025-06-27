@@ -15,7 +15,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
 
   return (
     <div className="relative bg-gradient-to-br from-primary-100 to-primary-200 overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/8460157/pexels-photo-8460157.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('https://i.ytimg.com/vi/EaGWU_usEpQ/maxresdefault.jpg')] bg-cover bg-center opacity-10"></div>
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
