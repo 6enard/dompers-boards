@@ -90,7 +90,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 3300,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/499542270_122126704388796671_5042328160661476088_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=J6jAOUwti0YQ7kNvwGEFuAk&_nc_oc=AdmNXpOW8EOvGZRoeh2ABKdTliFLs7n0NLguPd9reQb9gqOOJI4EsX4n0gsQXB7lGI8&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=LKNlCKB9xQbUDAtYq429nA&oh=00_AfP4-MIpp3_LbFmZen0sORotkN-z4LPoC6C8UpyaVM_3ig&oe=68642205',
     description: 'Beautiful cherry MDF board with rich wood appearance.',
     specifications: ['18mm thickness', '4x8 feet', 'Cherry finish', 'Rich appearance'],
     inStock: true,
