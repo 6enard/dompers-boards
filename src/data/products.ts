@@ -258,16 +258,5 @@ export const products: Product[] = [
     featured: true,
   },
 
-  // Custom Order
-  {
-    id: '22',
-    name: 'Custom Order',
-    category: 'boards',
-    subCategory: 'Custom Order',
-    price: 0,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
-    description: 'Custom boards and doors made to your specific requirements and dimensions.',
-    specifications: ['Custom dimensions', 'Various materials', 'Made to order', 'Professional consultation'],
-    inStock: true,
-  },
+
 ];
