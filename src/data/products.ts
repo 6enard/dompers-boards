@@ -186,7 +186,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Plywood',
     price: 3500,
-    image: 'https://images.pexels.com/photos/1571461/pexels-photo-1571461.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo10-1.fna.fbcdn.net/v/t39.30808-6/499621313_122126706806796671_6622685037007120108_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mMjmmbkbk8IQ7kNvwGX_T8q&_nc_oc=Adlu2kqQGOsfPTAJwYWRInFnY_6DAxVnva_nalGVvdZeVLm886Rz_xsDfVS10OOtGGw&_nc_zt=23&_nc_ht=scontent.fnbo10-1.fna&_nc_gid=pdXToI6uu5FnIj504eDgHQ&oh=00_AfO9TJ-kRdC-SSb_cUaC1OWLiig10L3RXJRXP9S0o8xU4g&oe=68644F1D',
     description: 'High-quality plywood suitable for various construction and furniture applications.',
     specifications: ['15mm thickness', '4x8 feet', 'Multi-layer construction', 'Versatile use'],
     inStock: true,
