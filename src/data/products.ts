@@ -124,7 +124,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'MDF',
     price: 3400,
-    image: 'https://images.pexels.com/photos/5691622/pexels-photo-5691622.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/499422584_122126704190796671_2378088107677827308_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rosKqgj5J_wQ7kNvwHXdpWz&_nc_oc=Adn85y7wCGZuqlq-Ch3tcucLTwmi-CcW5m0bjXHtHeGXUZ9oZrDbvsRBduPSWtPVMMM&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=1Kl_xeIier8CJDl4M3icvQ&oh=00_AfPXcbI2peCzzfIJBisHp3DA3773wK4m-D_DUIrtcPrXhA&oe=68641C00',
     description: 'Elegant dark walnut MDF board for luxury interior applications.',
     specifications: ['18mm thickness', '4x8 feet', 'Dark walnut finish', 'Luxury appearance'],
     inStock: true,
