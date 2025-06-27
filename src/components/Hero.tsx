@@ -34,9 +34,9 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
               </div>
               
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 font-montserrat leading-tight">
-                Premium
-                <span className="text-primary-600"> Boards</span> &
-                <span className="text-primary-800"> Doors</span>
+                Quality
+                <span className="text-primary-600"> You</span> Can
+                <span className="text-primary-800"> Trust</span>
               </h1>
               
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 font-roboto leading-relaxed max-w-2xl mx-auto lg:mx-0">
