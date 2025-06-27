@@ -20,7 +20,7 @@ export const products: Product[] = [
     category: 'boards',
     subCategory: 'Ceiling Boards',
     price: 1200,
-    image: 'https://images.pexels.com/photos/6782469/pexels-photo-6782469.jpeg?auto=compress&cs=tinysrgb&w=500',
+    image: 'https://hardwareworld.ug/wp-content/uploads/ceiling-board.jpg',
     description: 'Lightweight 7mm ceiling board ideal for residential and commercial use.',
     specifications: ['7mm thickness', '4x8 feet', 'Lightweight', 'Cost-effective'],
     inStock: true,
