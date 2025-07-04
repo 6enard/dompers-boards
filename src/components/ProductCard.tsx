@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingCart, Eye, Star } from 'lucide-react';
+import { ShoppingCart, Eye, Star, MessageCircle } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 
@@ -95,11 +95,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onViewDetails }) => 
 
         {/* Price and Actions */}
         <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-          <div>
-            <span className="text-2xl font-bold text-gray-900 font-montserrat">
-              KSh {product.price.toLocaleString()}
+          <div className="flex flex-col">
+            <span className="text-lg font-bold text-primary-600 font-montserrat">
+              Price on Request
             </span>
-            <span className="text-sm text-gray-500 font-roboto ml-1">per piece</span>
+            <span className="text-xs text-gray-500 font-roboto flex items-center">
+              <MessageCircle className="h-3 w-3 mr-1" />
+              Chat for pricing
+            </span>
           </div>
           
           <button

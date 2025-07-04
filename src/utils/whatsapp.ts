@@ -10,23 +10,18 @@ export const generateWhatsAppMessage = (items: CartItem[], totalPrice: number): 
     message += `${index + 1}. *${item.product.name}*\n`;
     message += `   Category: ${item.product.subCategory}\n`;
     message += `   Quantity: ${item.quantity}\n`;
-    if (item.product.price > 0) {
-      message += `   Price: KSh ${item.product.price.toLocaleString()} each\n`;
-      message += `   Subtotal: KSh ${(item.product.price * item.quantity).toLocaleString()}\n\n`;
-    } else {
-      message += `   *Custom Order - Price on Request*\n\n`;
-    }
+    message += `   *Price: Please provide current pricing*\n\n`;
   });
   
-  if (totalPrice > 0) {
-    message += `💰 *Total Amount: KSh ${totalPrice.toLocaleString()}*\n\n`;
-  } else {
-    message += `💰 *Total Amount: Price on Request*\n\n`;
-  }
+  message += "💰 *Total Amount: Price on Request*\n\n";
   
   message += "📍 *Delivery Information:*\n";
   message += "Please let us know your delivery location and preferred delivery time.\n\n";
   message += "🚚 *Available in:* Nakuru, Nyahururu, Narok, Kisii & Bomet\n\n";
+  message += "💬 *Please provide:*\n";
+  message += "• Current pricing for the above items\n";
+  message += "• Availability confirmation\n";
+  message += "• Delivery options and costs\n\n";
   message += "Thank you for choosing Dompers Boards! 🙏";
   
   return message;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, ShoppingCart, Star, Check, ArrowLeft } from 'lucide-react';
+import { X, ShoppingCart, Star, Check, ArrowLeft, MessageCircle } from 'lucide-react';
 import { Product } from '../types';
 import { useCart } from '../context/CartContext';
 
@@ -94,11 +94,16 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, isOpen, onClose 
               </h1>
 
               {/* Price */}
-              <div className="flex items-baseline space-x-2">
-                <span className="text-3xl font-bold text-primary-600 font-montserrat">
-                  KSh {product.price.toLocaleString()}
-                </span>
-                <span className="text-gray-500 font-roboto">per piece</span>
+              <div className="bg-primary-50 p-4 rounded-lg border border-primary-200">
+                <div className="flex items-center space-x-2 mb-2">
+                  <span className="text-2xl font-bold text-primary-600 font-montserrat">
+                    Price on Request
+                  </span>
+                </div>
+                <div className="flex items-center text-sm text-primary-700 font-roboto">
+                  <MessageCircle className="h-4 w-4 mr-2" />
+                  <span>Contact us via WhatsApp for current pricing and availability</span>
+                </div>
               </div>
 
               {/* Stock Status */}
@@ -168,11 +173,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product, isOpen, onClose 
                   <span>Add {quantity} to Cart</span>
                 </button>
 
-                <div className="text-center">
+                <div className="text-center bg-gray-50 p-3 rounded-lg">
                   <p className="text-sm text-gray-600 font-roboto">
-                    Total: <span className="font-semibold text-primary-600">
-                      KSh {(product.price * quantity).toLocaleString()}
-                    </span>
+                    <strong>Note:</strong> Final pricing will be provided when you contact us via WhatsApp for your order.
                   </p>
                 </div>
               </div>

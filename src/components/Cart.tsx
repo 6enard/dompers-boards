@@ -9,7 +9,7 @@ interface CartProps {
 }
 
 const Cart: React.FC<CartProps> = ({ isOpen, onClose, onCheckout }) => {
-  const { items, updateQuantity, removeFromCart, getTotalPrice, getTotalItems } = useCart();
+  const { items, updateQuantity, removeFromCart, getTotalItems } = useCart();
 
   if (!isOpen) return null;
 
@@ -67,8 +67,8 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose, onCheckout }) => {
                       <p className="text-xs text-gray-500 font-roboto">
                         {item.product.subCategory}
                       </p>
-                      <p className="text-sm font-semibold text-gray-900 font-montserrat">
-                        KSh {item.product.price.toLocaleString()}
+                      <p className="text-sm font-semibold text-primary-600 font-montserrat">
+                        Price on Request
                       </p>
                     </div>
 
@@ -107,11 +107,16 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose, onCheckout }) => {
           {/* Footer */}
           {items.length > 0 && (
             <div className="border-t border-gray-200 p-6 space-y-4">
-              <div className="flex justify-between items-center">
-                <span className="text-lg font-semibold text-gray-900 font-montserrat">Total:</span>
-                <span className="text-2xl font-bold text-primary-600 font-montserrat">
-                  KSh {getTotalPrice().toLocaleString()}
-                </span>
+              <div className="bg-primary-50 p-4 rounded-lg border border-primary-200">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-lg font-semibold text-gray-900 font-montserrat">Total:</span>
+                  <span className="text-xl font-bold text-primary-600 font-montserrat">
+                    Price on Request
+                  </span>
+                </div>
+                <p className="text-xs text-primary-700 font-roboto">
+                  Final pricing will be provided via WhatsApp
+                </p>
               </div>
               
               <button
@@ -120,11 +125,11 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose, onCheckout }) => {
                          hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
               >
                 <MessageCircle className="h-5 w-5" />
-                <span>Checkout via WhatsApp</span>
+                <span>Get Quote via WhatsApp</span>
               </button>
               
               <p className="text-xs text-gray-500 text-center font-roboto">
-                Complete your order through WhatsApp for instant support
+                Contact us for current pricing and availability
               </p>
             </div>
           )}
