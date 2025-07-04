@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary-400" />
-                <span className="text-sm text-gray-400 font-roboto">info@dompersboards.co.ke</span>
+                <span className="text-sm text-gray-400 font-roboto">dompersboardslogistics@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="h-4 w-4 text-primary-400" />

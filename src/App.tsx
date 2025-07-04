@@ -320,8 +320,8 @@ const AppContent: React.FC = () => {
                             </div>
                             <div>
                               <p className="font-semibold text-gray-900 font-roboto">Email</p>
-                              <a href="mailto:info@dompersboards.co.ke" className="text-blue-600 font-roboto hover:text-blue-700 transition-colors">
-                                info@dompersboards.co.ke
+                              <a href="mailto:dompersboardslogistics@gmail.com" className="text-blue-600 font-roboto hover:text-blue-700 transition-colors">
+                                dompersboardslogistics@gmail.com
                               </a>
                             </div>
                           </div>
