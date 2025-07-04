@@ -363,7 +363,7 @@ const AppContent: React.FC = () => {
                             <div className="w-6 h-6 bg-white rounded"></div>
                           </a>
                           <a 
-                            href="https://www.instagram.com/dompersboards/" 
+                            href="https://www.instagram.com/dompersboards" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="w-12 h-12 bg-pink-600 text-white rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors"
